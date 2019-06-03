@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <input type="text" id="thang">
+    <input type="button" value="Tinh so ngay" onclick="tinh();">
+    <script>
+        function tinh() {
+            let thang = document.getElementById('thang').value;
+
+            switch (thang) {
+                case 1:
+                    alert("Thang co 31 ngay")
+                    break;
+                case 2:
+                    alert("Thang co 28 hoac 29 ngay");
+                    break;
+            }
+        }
+    </script>
+</body>
+</html>
